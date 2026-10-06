@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Qeydiyyat forması</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <h1>Qeydiyyat formu</h1>
+
+    <label for="ad">Ad</label>
+    <input type="text" id="ad" name="ad" placeholder="Adınızı daxil edin" required>
+
+    <label for="email">E-poçt</label>
+    <input type="email" id="email" name="email" placeholder="numune@mail.com" required>
+
+    <label for="sifre">Şifrə</label>
+    <input type="password" id="sifre" name="sifre" required>
+
+    <label for="sheher">Şəhər</label>
+    <select id="sheher" name="sheher">
+      <option>Bakı</option>
+      <option>Gəncə</option>
+      <option>Sumqayıt</option>
+    </select>
+
+    <label for="mesaj">Mesaj</label>
+    <textarea id="mesaj" name="mesaj" rows="4"></textarea>
+
+    <label><input type="checkbox" name="raziyam"> Şərtlərlə razıyam</label>
+
+    <button type="submit">Göndər</button>
+  </form>
+</body>
+</html>
